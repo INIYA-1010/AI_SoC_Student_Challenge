@@ -9,3 +9,8 @@ The system consists of:
 
 Data flows from preprocessing to hardware accelerator and back to software.
 
+## Initial Block Description
+
+- Preprocessing: Converts input image into CNN-compatible format.
+- FPGA Accelerator: Executes CNN layers for faster inference.
+- Postprocessing: Interprets accelerator output.
